@@ -12,50 +12,36 @@ html{
 header {
 	width: 100%;
     height:10.592rem;
-    display: flex;
-    /*background-color: #978a6d;
-        */    
+    display: flex; 
+	justify-content: space-between;
+	position: fixed;
+	background-color: white;
 }
 
-
-
-
-
-
-.logo{
-
-	padding-right: 6rem;
-
-	
-}
 
 .logo img{
 	width: 23rem;
 	padding-left: 1rem;
-
 }
 
-
-
 .nav{
-	/*background-color: peachpuff;*/
 	height: 100%;
 	padding: 3rem;
 	text-align: center;
 	list-style: none;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
 }
 
 .nav li{
-    display: inline-block;
+   
 	font-size: 1.4rem;
 	margin: 1rem 0;
-	padding-left: 1.5rem;
-    padding-right: 1.5rem;
-
+	padding-left: 5rem;
+    padding-right: 5rem;
 }
-
 .menu{
-
 	display: flex;
 }
 
@@ -69,7 +55,6 @@ header {
 
 .login a{
 	font-size: 1.4rem;
-	padding-left: 9rem;	
 }
 
 .search{
@@ -77,134 +62,84 @@ header {
 	text-align: center;
 	padding: 2.3rem 0;
 	margin: 1rem 0;
-
 }
-
-
-
 .shopping-cart{
 	font-size: 3rem;
 	text-align: center;
 	padding: 2.3rem 2rem;
 	margin: 1rem 0;
-
 }
 
 .portada img{
 	width: 100%;
+	margin-top: 100px;
 }
 
 
 a:link, a:visited, a:active {
     text-decoration:none;
-    color: #978a6d;
+    color: #8E8072;
 }
 
 .title h1 {
-
 	margin: 3rem;
 	padding: 5rem; 
-
 	font-size: 5rem;
 	text-align: center;
-
-	color: #978a6d;
+	color: #8E8072;
 }
 
-
-
 .welcome{
-
 	display: flex;
 	flex-direction: column;
-
-
     padding:  10rem 0rem;
-
-	
 }
 
 .welcome span{
-
 	text-align: center;
-	font-size: 2rem;
-	
+	font-size: 2rem;	
 }
 
 .carrete{
 	display: flex;
 	flex-wrap: wrap;
-	
 	width: 100%;
-
-
-
-
 }
 
 .carrete img{
-
 	width: 25rem;
 	flex-grow: 1;
 	padding: 0rem;
-
 }
 
 .galeria{
-
 	padding-top:  10rem ;
-
-
-
-	
 }
 
 
 .cards{
-
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
-
-
-
 }
 
 .card{
-
 	width: 30rem;
-
 }
 
 .foto img{
 	width: 30rem;
 }
 
-
-
 .precio, .descripcion{
-
 	text-align: center;
-
 	margin: 1.5rem;
-}
-
-
-
-
-body{
-
-   
-      
 }
 
 footer{
    width: 100%;
    height: 50rem;
-   background-color: #978a6d;
-
+   background-color: #8E8072;
    margin-top: 15rem;
-
-
 }
 
