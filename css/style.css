@@ -6,7 +6,7 @@
 
 html{
 	font-size: 62.5%;
-	font-family: sans-serif;
+	font-family: karla ,sans-serif ;
 }
 
 header {
@@ -28,15 +28,15 @@ header {
 	height: 100%;
 	padding: 3rem;
 	text-align: center;
-	list-style: none;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
 
+
 .nav li{
    
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 	margin: 1rem 0;
 	padding-left: 5rem;
     padding-right: 5rem;
@@ -54,8 +54,10 @@ header {
 
 
 .login a{
-	font-size: 1.4rem;
+	font-size: 1.6rem;
 }
+
+
 
 .search{
 	font-size: 3rem;
@@ -76,7 +78,7 @@ header {
 }
 
 
-a:link, a:visited, a:active {
+header a {
     text-decoration:none;
     color: #8E8072;
 }
@@ -95,9 +97,10 @@ a:link, a:visited, a:active {
     padding:  10rem 0rem;
 }
 
-.welcome span{
+.welcome p{
 	text-align: center;
-	font-size: 2rem;	
+	font-size: 2rem;
+	padding: 0rem 5rem;;	
 }
 
 .carrete{
@@ -131,15 +134,84 @@ a:link, a:visited, a:active {
 	width: 30rem;
 }
 
-.precio, .descripcion{
+ .descripcion{
 	text-align: center;
 	margin: 1.5rem;
+	font-size: 1.2rem;
 }
+
+.precio{
+	text-align: center;
+	margin: 1.5rem;
+	font-size: 1.5rem;
+}
+
+
 
 footer{
    width: 100%;
    height: 50rem;
    background-color: #8E8072;
+   color: white;
    margin-top: 15rem;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   
 }
+
+ul{
+ list-style: none;
+ 
+ 
+}
+
+#logo-clear img{
+   width: 30rem;
+   height: 12rem;
+}
+
+
+
+footer a{
+	text-decoration:none;
+    color: white;
+	font-size: 2rem;
+	padding: 2rem 2rem;
+}
+
+#icons {
+ margin-top: 12rem;
+ margin-left: 10rem;
+}
+
+#icons li{
+padding: 3.5rem 0;
+
+}
+
+footer p{
+	width: 40rem;
+	font-size: 1.6rem;
+	padding: 2rem 0 2rem 3rem ;
+}
+
+.items{
+    
+	height: 15rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+
+#social-media{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+
+
+
 
